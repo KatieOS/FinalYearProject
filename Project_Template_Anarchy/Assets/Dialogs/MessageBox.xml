@@ -1,0 +1,39 @@
+<root>    
+    <DIALOG class="VDialog" name="MessageBox" fullscreen="FALSE" size="300,140" startPosition="ScreenCenter">
+    
+	  <fadeback start="0" speed="0.5" color="100,100,100"/>
+	  <frame texture="DialogFrame.tga"/>
+	  
+	  <control class="VDialogTitleBar">
+		  <text text="GUI Sample" color="0,0,0,255" font="Arial_18" valign="LEFT" ofs="0,8" />
+	  </control>
+	  <control class="VDialogResizeCtrl"/>
+	  <control class="VDialogCloseButton" ofs="-5,0" size="25,25" dialogResult="YES"> 
+		  <image texture="CloseButton.tga">
+			  <statemodifier state="mouseOver" 	texture="CloseButtonHigh.tga" />
+			  <statemodifier state="selected" 	texture="CloseButtonSel.tga" />
+			  <statemodifier state="disabled" 	texture="CloseButtonGray.tga" />
+		  </image>
+	  </control>
+
+      <control class="VTextLabel" pos="0,60" size="300,40">
+		  <text text="Do you really want to run this sample?" font="Arial_18" color="160,160,160,255" halign="center"/>
+	  </control>
+
+      <control class="VPushButton" pos="40,100" size="80,20" ID="YES" dialogResult="YES" enabled="true" taborder="0">
+		  <text text="Yes" font="Arial_18" color="160,160,160,255" halign="center">
+        <statemodifier state="mouseOver" color="200,200,200,255"/>
+        <statemodifier state="selected"  color="180,180,180,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+		  </text>
+	  </control>
+      <control class="VPushButton" pos="180,100" size="80,20" ID="NO" dialogResult="NO" enabled="true" taborder="1">
+		  <text text="No" font="Arial_18" color="160,160,160,255" halign="center">
+        <statemodifier state="mouseOver" color="200,200,200,255"/>
+        <statemodifier state="selected"  color="180,180,180,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+		  </text>
+	  </control>
+	 
+    </DIALOG>
+</root>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GamePluginModule.h" />
+    <ClInclude Include="GamePluginPCH.h" />
+    <ClInclude Include="myComponent.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="TemplateAction.h" />
+    <ClInclude Include="VisionHavokBehaviorWorldListener.h" />
+    <ClInclude Include="ComponentManager.h" />
+    <ClInclude Include="door.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryPickUp.h" />
+    <ClInclude Include="PickUp.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerControlComponent.h" />
+    <ClInclude Include="PlayerDialog.h" />
+    <ClInclude Include="PluginMain.h" />
+    <ClInclude Include="VisionSerializer.h" />
+    <ClInclude Include="BaseEntity.hpp" />
+    <ClInclude Include="crate.h" />
+    <ClInclude Include="SceneManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GamePluginPCH.cpp" />
+    <ClCompile Include="myComponent.cpp" />
+    <ClCompile Include="PluginMain.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="TemplateAction.cpp" />
+    <ClCompile Include="VisionHavokBehaviorWorldListener.cpp" />
+    <ClCompile Include="ComponentManager.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryPickUp.cpp" />
+    <ClCompile Include="PickUp.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerControlComponent.cpp" />
+    <ClCompile Include="PlayerDialog.cpp" />
+    <ClCompile Include="VisionSerializer.cpp" />
+    <ClCompile Include="BaseEntity.cpp" />
+    <ClCompile Include="crate.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+  </ItemGroup>
+</Project>

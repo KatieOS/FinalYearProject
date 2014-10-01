@@ -1,0 +1,22 @@
+﻿Build started 30/04/2014 21:31:44.
+     1>Project "C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Source\GamePlugin\GamePluginDX9_win32_vs2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "..\..\Obj\win32_vs2010_anarchy\debug_dll\DX9\GamePlugin\GamePlugin100.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         GamePluginDX9_win32_vs2010.vcxproj -> C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Source\GamePlugin\..\..\Bin\win32_vs2010_anarchy\debug_dll\DX9\GamePlugin.vPluginD
+       PostBuildEvent:
+         xcopy /Y /D "C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Bin\win32_vs2010_anarchy\debug_dll\DX9\GamePlugin.vPluginD" "C:\Havok2.5\AnarchySDK/Bin/win32_vs2010_anarchy/debug_dll/DX9"
+         :VCEnd
+         0 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "..\..\Obj\win32_vs2010_anarchy\debug_dll\DX9\GamePlugin\GamePlugin100.unsuccessfulbuild".
+         Touching "..\..\Obj\win32_vs2010_anarchy\debug_dll\DX9\GamePlugin\GamePlugin100.lastbuildstate".
+     1>Done Building Project "C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Source\GamePlugin\GamePluginDX9_win32_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14

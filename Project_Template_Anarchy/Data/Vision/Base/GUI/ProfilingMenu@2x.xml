@@ -1,0 +1,136 @@
+<root>
+    <DIALOG class="VisProfilingMenu" name="ProfilingMenu" fullscreen="FALSE" backgroundcolor="0,0,80,180" size="300,660">
+
+      <control class="VPushButton" pos="8,8" size="284,48" ID="PMID_FRAMERATE" taborder="0" enabled="true">
+        <text text="Toggle Framerate" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+      
+      <control class="VPushButton" pos="8,64" size="284,52" ID="PMID_ENTITYDEBUG" taborder="0" enabled="true">
+        <text text="Cycle Entity Debug Output" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+      
+      <control class="VPushButton" pos="8,124" size="284,52" ID="PMID_POLYCOUNT" taborder="0" enabled="true">
+        <text text="Toggle Polygon Count" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+      
+      <control class="VPushButton" pos="8,204" size="284,52" ID="PMID_PREVPAGE" taborder="0" enabled="true">
+        <text text="Previous Profiling Page" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+      
+      <control class="VPushButton" pos="8,264" size="284,52" ID="PMID_NEXTPAGE" taborder="0" enabled="true">
+        <text text="Next Profiling Page" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+      
+      <control class="VPushButton" pos="8,324" size="284,52" ID="PMID_RESETMAX" taborder="0" enabled="true">
+        <text text="Reset Max Profiling Values" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected" color="0,0,80,255"/>
+          <statemodifier state="mouseOver"  color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+	  
+      <control class="VPushButton" pos="8,404" size="284,52" ID="PMID_RELOADRESOURCES" taborder="0" enabled="true">
+        <text text="Reload Resources" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+	  
+	  <control class="VPushButton" pos="8,464" size="284,48" ID="PMID_NEXT_SHADING" taborder="0" enabled="true">
+        <text text="Next Debug Shading Mode" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+	  
+	  <control class="VPushButton" pos="8,524" size="284,48" ID="PMID_TOGGLE_TOUCH_AREAS" taborder="0" enabled="true">
+        <text text="Touch Area Debug Rendering" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+      
+      <control class="VPushButton" pos="8,604" size="284,48" ID="PMID_HIDE" taborder="0" enabled="true">
+        <text text="Hide this Dialog" font="Menu" color="80,120,255,255" halign="center" valign="center">
+          <statemodifier state="selected"  color="0,0,80,255"/>
+          <statemodifier state="mouseOver" color="80,120,255,255"/>
+          <statemodifier state="disabled"  color="100,100,100,255"/>
+        </text>
+        <image texture="\plainwhite.dds" color="50,50,80,255">
+          <statemodifier state="selected"  color="150,150,150,255"/>
+          <statemodifier state="mouseOver" color="50,50,80,255"/>
+          <statemodifier state="disabled"  color="128,128,128,255"/>
+        </image>
+      </control>
+	  
+    </DIALOG>
+	
+</root>

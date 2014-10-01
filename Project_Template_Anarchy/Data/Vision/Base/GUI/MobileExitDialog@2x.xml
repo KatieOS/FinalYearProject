@@ -1,0 +1,37 @@
+<root>
+  
+  <DIALOG class="VisMobileExitDialog" name="ExitDialog" fullscreen="FALSE" backgroundcolor="0,0,80,180" size="400,140">
+  
+    <control class="VTextLabel" pos="0,0" size="400,60" ID="STATIC">
+      <text font="Menu" text="Are you sure you want to exit?" enabled="true" halign="center" valign="center"/>
+    </control>
+
+    <control class="VPushButton" pos="8,64" size="188,68" ID="ID_CANCEL" taborder="0" enabled="true">
+      <text font="Menu" text="No" color="80,120,255,255" halign="center" valign="center">
+        <statemodifier state="selected" color="0,0,80,255"/>
+        <statemodifier state="mouseOver"  color="80,120,255,255"/>
+        <statemodifier state="disabled"  color="100,100,100,255"/>
+      </text>
+      <image texture="\plainwhite.dds" color="50,50,80,255">
+        <statemodifier state="selected" color="150,150,150,255"/>
+        <statemodifier state="mouseOver"  color="50,50,80,255"/>
+        <statemodifier state="disabled"  color="128,128,128,255"/>
+      </image>
+    </control>
+    
+    <control class="VPushButton" pos="204,64" size="188,68" ID="ID_EXIT" taborder="0" enabled="true">
+      <text font="Menu" text="Yes" color="80,120,255,255" halign="center" valign="center">
+        <statemodifier state="selected" color="0,0,80,255"/>
+        <statemodifier state="mouseOver"  color="80,120,255,255"/>
+        <statemodifier state="disabled"  color="100,100,100,255"/>
+      </text>
+      <image texture="\plainwhite.dds" color="50,50,80,255">
+        <statemodifier state="selected" color="150,150,150,255"/>
+        <statemodifier state="mouseOver"  color="50,50,80,255"/>
+        <statemodifier state="disabled"  color="128,128,128,255"/>
+      </image>
+    </control>
+
+  </DIALOG>
+	
+</root>

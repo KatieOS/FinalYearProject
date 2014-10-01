@@ -1,0 +1,45 @@
+﻿Build started 30/04/2014 18:40:17.
+     1>Project "C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Source\GamePlugin\GamePluginDX9_win32_vs2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\GamePlugin100.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\Source /IC:\Havok2.5\AnarchySDK/Source /IC:\Havok2.5\AnarchySDK\ThirdParty/redistsdks/Lua/5.1.4/ /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/Include" /IC:\Havok2.5\AnarchySDK\ThirdParty/redistsdks/Lua/5.1.4/ /IC:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/ /IC:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/Include /IC:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/Src /IC:\Havok2.5\AnarchySDK\ThirdParty/redistsdks/curl/7.22.0/include /IC:\Havok2.5\AnarchySDK\ThirdParty/redistsdks/fmod/4.44.23/inc /Zi /nologo /W3 /WX- /MP /Ox /Ob1 /Oi /Ot /D TESTCOMPONENT_EXPORTS /D SAMPLEPLUGIN_EXPORTS /D _WINDOWS /D WIN32 /D _WIN32 /D HK_DEBUG /D _CONSOLE /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D HK_ANARCHY /D PROFILING /D _VISION_WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _VR_DX9 /D USE_HAVOK /D VHAVOKMODULE_IMPORTS /D FMODENGINEPLUGIN_IMPORTS /D ANIMATIONMODULE_IMPORTS /D VHAVOKAIMODULE_IMPORTS /D VHAVOKBEHAVIORMODULE_IMPORTS /D SCALEFORMPLUGIN_IMPORTS /D CURL_STATICLIB /D HK_CONFIG_SIMD=1 /D _WINDLL /GF /Gm- /EHsc /MD /GS /Gy- /arch:SSE2 /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR /Yu"GamePluginPCH.h" /Fp"..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\GamePluginPCH.pch" /Fo"..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\\" /Fd"..\..\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.pdb" /Gd /TP /wd6031 /errorReport:prompt SceneManager.cpp /MP  
+         SceneManager.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.vPlugin" /NOLOGO /LIBPATH:..\..\..\Lib\win32_vs2010_anarchy\dev_dll /LIBPATH:C:\Havok2.5\AnarchySDK/Lib/win32_vs2010_anarchy\dev_dll /LIBPATH:C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks/Lua/5.1.4/lib /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/Lib/x86" /LIBPATH:C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/Lib/Win32/Msvc10/Release/ /LIBPATH:"C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/3rdParty/jpeg-8d/Lib/Win32/Msvc10/Release/" /LIBPATH:"C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/3rdParty/zlib-1.2.7/Lib/Win32/Msvc10/Release/" /LIBPATH:"C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/3rdParty/libpng-1.5.13/Lib/Win32/Msvc10/Release/" /LIBPATH:"C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/3rdParty/expat-2.1.0/lib/Win32/Msvc10/Release/" /LIBPATH:C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks\Scaleform\4.3.26/3rdParty/pcre/Lib/Win32/Msvc10/Release/ /LIBPATH:C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks/curl/7.22.0/libwin/win32_vs2010 /LIBPATH:C:\Havok2.5\AnarchySDK\ThirdParty/redistsdks/fmod/4.44.23/lib/win lua100.lib d3d9.lib d3dx9.lib libgfx.lib libgfx_air.lib libgfx_as2.lib libgfx_as3.lib libgfxexpat.lib libgfxsound_fmod.lib libgfxrender_d3d9.lib libgfxplatform_d3d9.lib libjpeg.lib zlib.lib pcre.lib Winmm.lib ws2_32.lib imm32.lib libpng.lib libcurl.lib fmodex_vc.lib fmod_event_net.lib Base.lib Vision.lib VisionEnginePlugin.lib vHavok.lib hkBase.lib hkCompat.lib hkSceneData.lib hkSerialize.lib hkVisualize.lib hkInternal.lib hkGeometryUtilities.lib hkcdInternal.lib hkcdCollide.lib hkpUtilities.lib hkpVehicle.lib hkpDynamics.lib hkpCollide.lib hkpInternal.lib hkpConstraintSolver.lib hkpConstraint.lib hkaPhysics2012Bridge.lib hkaInternal.lib hkaAnimation.lib hkbBehavior.lib hkbInternal.lib hkbUtilities.lib hkbPhysics2012Bridge.lib hkbAiBridge.lib hkbScript.lib hkaiPathfinding.lib hkaiInternal.lib hkaiVisualize.lib hkaiSpatialAnalysis.lib hkaiPhysics2012Bridge.lib vHavokAi.lib vHavokBehavior.lib vFmodEnginePlugin.lib vScaleformPlugin.lib vScaleformUtils.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /ManifestFile:"..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\Manifest.vPlugin.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Lib\win32_vs2010_anarchy\dev_dll\GamePlugin.lib" /MACHINE:X86 /DLL ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\BaseEntity.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\ComponentManager.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\crate.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\Door.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\GameManager.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\GamePluginPCH.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\Inventory.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\InventoryPickUp.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\myComponent.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\PickUp.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\Player.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\PlayerControlComponent.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\PlayerDialog.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\PluginMain.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\SceneManager.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\TemplateAction.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\VisionHavokBehaviorWorldListener.obj
+         ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\VisionSerializer.obj  /ignore:4221
+         LINK : ..\..\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.vPlugin not found or not built by the last incremental link; performing full link
+            Creating library ..\..\Lib\win32_vs2010_anarchy\dev_dll\GamePlugin.lib and object ..\..\Lib\win32_vs2010_anarchy\dev_dll\GamePlugin.exp
+         GamePluginDX9_win32_vs2010.vcxproj -> C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Source\GamePlugin\..\..\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.vPlugin
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.vPlugin;#2" /manifest ..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\Manifest.vPlugin.intermediate.manifest
+       PostBuildEvent:
+         xcopy /Y /D "C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.vPlugin" "C:\Havok2.5\AnarchySDK/Bin/win32_vs2010_anarchy/dev_dll/DX9"
+         :VCEnd
+         C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Bin\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin.vPlugin
+         1 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\GamePlugin100.unsuccessfulbuild".
+         Touching "..\..\Obj\win32_vs2010_anarchy\dev_dll\DX9\GamePlugin\GamePlugin100.lastbuildstate".
+     1>Done Building Project "C:\Users\lab422\KatieOSullivanFYP\WindowsDemo\Project_Template_Anarchy\Source\GamePlugin\GamePluginDX9_win32_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.27

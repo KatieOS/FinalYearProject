@@ -1,0 +1,35 @@
+<root>
+  <DIALOG class="VDialog" name="MainMenu" fullscreen="TRUE" backgroundcolor="0,0,0,255" size="275,600" startPosition="ScreenCenter">
+
+<script filename="PlayGame.lua" />
+    <!-- logo -->
+    <control class="VImageControl" ID="IMAGE1" pos="73,50" size="128,129">
+      <image texture="logo.tga" stretchmode="TEXTURE_SIZE"/>
+    </control>
+	
+	<!-- text label -->
+	<control class="VTextLabel" ID="STATIC1" pos="30,300" size="150,35">
+	  <text text="Control menu:" font="MenuFont" color="255,192,58,255" valign="CENTER" halign="LEFT"/>
+    </control>
+	
+    <!-- close button -->
+    <control class="VPushButton" ID="QUIT" pos="30,460" size="88,35" dialogResult="CANCEL" enabled="true" tooltiptext="Close the menu" taborder="6">
+      <text text="PLAY GAME" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+        <statemodifier state="mouseOver" color="230,230,230,255"/>
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+<!-- button image -->
+  <image texture="Button.tga" valign="CENTER" halign="CENTER">
+
+    <statemodifier state="mouseOver" texture="ButtonMouseOver.tga" cursor="HighMouse"/>
+
+     <statemodifier state="selected" texture="ButtonClicked.tga" cursor="HighMouse"/>
+
+     <statemodifier state="disabled" texture="ButtonDisabled.tga"/>
+
+  </image>
+    </control>
+	
+  </DIALOG>
+</root>

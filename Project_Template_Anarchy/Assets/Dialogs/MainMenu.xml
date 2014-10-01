@@ -1,0 +1,38 @@
+<root>
+  <DIALOG class="VDialog" name="MainMenu" fullscreen="FALSE" backgroundcolor="51,51,51,200" size="275,600" startPosition="ScreenCenter">
+
+    <!-- logo -->
+    <control class="VImageControl" ID="IMAGE1" pos="73,50" size="128,129">
+      <image texture="logo.tga" stretchmode="TEXTURE_SIZE"/>
+    </control>
+	
+	<!-- text label -->
+	<control class="VTextLabel" ID="STATIC1" pos="30,300" size="150,35">
+	  <text text="Equipment menu:" font="MenuFont" color="255,192,58,255" valign="CENTER" halign="LEFT"/>
+    </control>
+
+	<!-- checkboxes -->
+    <control class="VCheckBox" pos="30,350" size="150,25" ID="CHECKBOX1" checked="false">
+      <image texture="checkbox.tga">
+        <statemodifier state="selected" texture="checkboxMarked.tga"/>
+      </image>
+      <text text="Master Sword" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+    </control>
+    <control class="VCheckBox" pos="30,400" size="150,25" ID="CHECKBOX2" checked="false">
+      <image texture="checkbox.tga">
+        <statemodifier state="selected" texture="checkboxMarked.tga"/>
+      </image>
+      <text text="Iron Shield" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+    </control>
+	
+    <!-- quit button -->
+    <control class="VPushButton" ID="QUIT" pos="30,460" size="88,35" dialogResult="CANCEL" enabled="true" tooltiptext="Quit the application" taborder="6">
+      <text text="Quit" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+        <statemodifier state="mouseOver" color="230,230,230,255"/>
+        <statemodifier state="selected"  color="255,255,255,255"/>
+        <statemodifier state="disabled"  color="120,120,120,255"/>
+      </text>
+    </control>
+	
+  </DIALOG>
+</root>

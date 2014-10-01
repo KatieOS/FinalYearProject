@@ -1,0 +1,373 @@
+///////////////////////////////////////////////////////
+Layer : nav_Mesh (nav_Mesh.Layer)
+
+///////////////////////////////////////////////////////
+Layer : contraits (contraits.Layer)
+    Anchor
+       - AnchorLinkTarget:'add object to anchor here'
+         -> contraits/root/Constraint via LinkSourceHavokConstraint:'attach to anchor'
+    Anchor0
+       - AnchorLinkTarget:'add object to anchor here'
+         -> contraits/root/Constraint1 via LinkSourceHavokConstraint:'attach to anchor'
+  modular_floor01.vmesh142
+     - LinkTargetVisiblity:'visibility determined by'
+    Anchor
+       - AnchorLinkTarget:'add object to anchor here'
+         -> contraits/root/Constraint0 via LinkSourceHavokConstraint:'attach to anchor'
+    Anchor0
+       - AnchorLinkTarget:'add object to anchor here'
+         -> contraits/root/Constraint2 via LinkSourceHavokConstraint:'attach to anchor'
+    Anchor
+       - AnchorLinkTarget:'add object to anchor here'
+         -> contraits/root/Constraint via LinkSourceHavokConstraint:'attach to anchor'
+         -> contraits/root/Constraint0 via LinkSourceHavokConstraint:'attach to anchor'
+    Anchor0
+       - AnchorLinkTarget:'add object to anchor here'
+         -> contraits/root/Constraint1 via LinkSourceHavokConstraint:'attach to anchor'
+         -> contraits/root/Constraint2 via LinkSourceHavokConstraint:'attach to anchor'
+  Constraint
+     - LinkSourceHavokConstraint:'attach to anchor'
+       -> contraits/root/ammobox3.model10/Anchor via AnchorLinkTarget:'add object to anchor here'
+       -> contraits/root/ammobox3.model/Anchor via AnchorLinkTarget:'add object to anchor here'
+  Constraint0
+     - LinkSourceHavokConstraint:'attach to anchor'
+       -> contraits/root/ammobox3.model9/Anchor via AnchorLinkTarget:'add object to anchor here'
+       -> contraits/root/ammobox3.model10/Anchor via AnchorLinkTarget:'add object to anchor here'
+  Constraint1
+     - LinkSourceHavokConstraint:'attach to anchor'
+       -> contraits/root/ammobox3.model10/Anchor0 via AnchorLinkTarget:'add object to anchor here'
+       -> contraits/root/ammobox3.model/Anchor0 via AnchorLinkTarget:'add object to anchor here'
+  Constraint2
+     - LinkSourceHavokConstraint:'attach to anchor'
+       -> contraits/root/ammobox3.model9/Anchor0 via AnchorLinkTarget:'add object to anchor here'
+       -> contraits/root/ammobox3.model10/Anchor0 via AnchorLinkTarget:'add object to anchor here'
+
+///////////////////////////////////////////////////////
+Layer : Level (Level.Layer)
+    modular_floor01.vmesh
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh2
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh0
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh1
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh7
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh3
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh4
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh5
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh6
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh14
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh8
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh10
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh9
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh11
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh12
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh13
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh15
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh40
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh17
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh36
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh35
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh34
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh33
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh32
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh31
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh30
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh29
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh28
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh27
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh26
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh25
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh24
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh23
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh22
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh21
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh20
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh19
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh18
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh37
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh38
+       - LinkTargetVisiblity:'visibility determined by'
+    modular_floor01.vmesh39
+       - LinkTargetVisiblity:'visibility determined by'
+  modular_wall01.vmesh
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_wall01.vmesh0
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_wall01.vmesh1
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_wall01.vmesh2
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh39
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh44
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh45
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh46
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh47
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh49
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh50
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh51
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh52
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh53
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh54
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh55
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh56
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh57
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh58
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh59
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh60
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh61
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh62
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh63
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh64
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh65
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh66
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh67
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh68
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh69
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh70
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh71
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh72
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh73
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh74
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh75
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh76
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh77
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh78
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh79
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh80
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh81
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh82
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh83
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh84
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh85
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh86
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh87
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh89
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh90
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh91
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh92
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh93
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh94
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh95
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh96
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh97
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh98
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh99
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh100
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh101
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh102
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh103
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh104
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh105
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh106
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh107
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh108
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh109
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh110
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh111
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh112
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh113
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh114
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh115
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh116
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh117
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh118
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh119
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh120
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh121
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh122
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh123
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh124
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh125
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh126
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh127
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh128
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh129
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh130
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh131
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh38
+     - LinkTargetVisiblity:'visibility determined by'
+
+///////////////////////////////////////////////////////
+Layer : sound (sound.Layer)
+  Fmod -background
+     - LinkTargetTriggerComponent:'Pause'
+     - LinkTargetTriggerComponent:'Resume'
+  Fmod - Sound
+     - LinkTargetTriggerComponent:'Pause'
+     - LinkTargetTriggerComponent:'Resume'
+
+///////////////////////////////////////////////////////
+Layer : Main layer (Main layer.Layer)
+
+///////////////////////////////////////////////////////
+Layer : Objects (picksups.Layer)
+  modular_floor01.vmesh132
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh133
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh134
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh131
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh135
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh136
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh137
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh138
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh139
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh140
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh141
+     - LinkTargetVisiblity:'visibility determined by'
+  modular_floor01.vmesh142
+     - LinkTargetVisiblity:'visibility determined by'
+
+///////////////////////////////////////////////////////
+Layer : pickUps (pickUps.Layer)
+
+///////////////////////////////////////////////////////
+Layer : particals (particals.Layer)
+  Sparks
+     - LinkTargetConstraint:'affected by'
+     - LinkTargetTriggerComponent:'Pause'
+     - LinkTargetTriggerComponent:'Resume'
+     - LinkTargetTriggerComponent:'Restart'
+  Fire
+     - LinkTargetConstraint:'affected by'
+     - LinkTargetTriggerComponent:'Pause'
+     - LinkTargetTriggerComponent:'Resume'
+     - LinkTargetTriggerComponent:'Restart'
+
+///////////////////////////////////////////////////////
+Layer : visability (visability.Layer)
+  Visibility object
+     - LinkSourceVisiblity:'affects'
+
